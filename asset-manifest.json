@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/creadit-card-manager/static/css/main.54d82c99.chunk.css",
+    "main.js": "/creadit-card-manager/static/js/main.ffad9798.chunk.js",
+    "main.js.map": "/creadit-card-manager/static/js/main.ffad9798.chunk.js.map",
+    "runtime-main.js": "/creadit-card-manager/static/js/runtime-main.e5f7b62d.js",
+    "runtime-main.js.map": "/creadit-card-manager/static/js/runtime-main.e5f7b62d.js.map",
+    "static/css/2.29530082.chunk.css": "/creadit-card-manager/static/css/2.29530082.chunk.css",
+    "static/js/2.99c853c3.chunk.js": "/creadit-card-manager/static/js/2.99c853c3.chunk.js",
+    "static/js/2.99c853c3.chunk.js.map": "/creadit-card-manager/static/js/2.99c853c3.chunk.js.map",
+    "index.html": "/creadit-card-manager/index.html",
+    "static/css/2.29530082.chunk.css.map": "/creadit-card-manager/static/css/2.29530082.chunk.css.map",
+    "static/css/main.54d82c99.chunk.css.map": "/creadit-card-manager/static/css/main.54d82c99.chunk.css.map",
+    "static/js/2.99c853c3.chunk.js.LICENSE.txt": "/creadit-card-manager/static/js/2.99c853c3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5f7b62d.js",
+    "static/css/2.29530082.chunk.css",
+    "static/js/2.99c853c3.chunk.js",
+    "static/css/main.54d82c99.chunk.css",
+    "static/js/main.ffad9798.chunk.js"
+  ]
+}
