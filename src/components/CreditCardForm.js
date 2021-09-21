@@ -17,6 +17,11 @@ const CreditCardForm = (props) => {
   //   values.cardExpiration=props.sendCard.cardData.cardExpiration;
   // }
 
+  const maxLengthCheck = (object) => {
+    if (object.target.value.length > object.target.maxLength) {
+     object.target.value = object.target.value.slice(0, object.target.maxLength)
+      }
+    }
   
 
   
@@ -47,6 +52,8 @@ const CreditCardForm = (props) => {
               <Form.Control
                 className="topmargin"
                 type="number"
+                maxLength = "16" 
+                onInput={maxLengthCheck}
                 id="cardNumber"
                 data-testid="cardNumber"
                 name="cardNumber"
@@ -93,7 +100,9 @@ const CreditCardForm = (props) => {
                     id="cardExpiration"
                     data-testid="cardExpiration"
                     name="cardExpiration"
-                    placeholder="Expiration Date"
+                    placeholder="MM/YY"
+                    minLength="5"
+                    maxLength="5"
                     value={values.cardExpiration}
                     onChange={handleChange}
                     onFocus={handleFocus}
@@ -110,7 +119,9 @@ const CreditCardForm = (props) => {
                     id="cardSecurityCode"
                     data-testid="cardSecurityCode"
                     name="cardSecurityCode"
-                    placeholder="Security Code"
+                    placeholder="CVV"
+                    minLength="3"
+                    maxLength="3"
                     value={values.cardSecurityCode}
                     onChange={handleChange}
                     onFocus={handleFocus}
@@ -140,7 +151,7 @@ const CreditCardForm = (props) => {
               id="validateButton"
               type="submit"
             >
-              Validate
+              Add Card
             </Button>
           </Form>
           </div>
