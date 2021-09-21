@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/creadit-card-manager/static/css/main.54d82c99.chunk.css",
-    "main.js": "/creadit-card-manager/static/js/main.ad899ef3.chunk.js",
-    "main.js.map": "/creadit-card-manager/static/js/main.ad899ef3.chunk.js.map",
+    "main.js": "/creadit-card-manager/static/js/main.c67fe4d2.chunk.js",
+    "main.js.map": "/creadit-card-manager/static/js/main.c67fe4d2.chunk.js.map",
     "runtime-main.js": "/creadit-card-manager/static/js/runtime-main.e5f7b62d.js",
     "runtime-main.js.map": "/creadit-card-manager/static/js/runtime-main.e5f7b62d.js.map",
     "static/css/2.29530082.chunk.css": "/creadit-card-manager/static/css/2.29530082.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.29530082.chunk.css",
     "static/js/2.99c853c3.chunk.js",
     "static/css/main.54d82c99.chunk.css",
-    "static/js/main.ad899ef3.chunk.js"
+    "static/js/main.c67fe4d2.chunk.js"
   ]
 }
