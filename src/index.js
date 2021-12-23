@@ -4,11 +4,13 @@ import { BrowserRouter } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
+import Image from './components/image-upload.component';
 
 
 ReactDOM.render(
 <BrowserRouter>
-    <App />
+    {/* <App /> */}
+    <Image />
   </BrowserRouter>,
  document.getElementById('root'));
 

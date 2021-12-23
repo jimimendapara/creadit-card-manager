@@ -45,6 +45,17 @@ function CardsList(props) {
           });
       }
 
+      const updateCard = (e, id) => {
+        alert(id);
+        CardDataService.update( state.currentCard.id, state.currentCard)
+         .then(response => {
+                  console.log(response.data);
+                  setState({
+                    message: "The Card was updated successfully!"
+                  });
+                })
+
+      };
 
     //   function updateCard(e, id) {
     //     e.preventDefault();
@@ -85,7 +96,15 @@ function CardsList(props) {
                   onClick={(e) => deleteCard(e, card.id)}
                 >
                   Delete
-                </Button></div>
+                </Button>
+                <Button
+                    style={{ marginLeft: "auto" }}
+                  variant="outline-danger"
+                  onClick={(e) => updateCard(e, card.id)}
+                >
+                  Update
+                </Button>
+                 </div>
                 </div>
                  ))}
 
